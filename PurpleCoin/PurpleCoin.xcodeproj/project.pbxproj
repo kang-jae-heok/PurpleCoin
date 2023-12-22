@@ -20,6 +20,7 @@
 		409286D22B3568DA00E89F62 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286D12B3568DA00E89F62 /* MarketViewController.swift */; };
 		409286D42B35695000E89F62 /* DetailCoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286D32B35695000E89F62 /* DetailCoinView.swift */; };
 		409286D62B35695700E89F62 /* DetailCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286D52B35695700E89F62 /* DetailCoinViewController.swift */; };
+		409286DA2B35703000E89F62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286D92B35703000E89F62 /* Constants.swift */; };
 		683B9D0C853020C7F9FAAF13 /* Pods_PurpleCoin_PurpleCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */; };
 		7C71EBA7FB50F1FBD4DDB2E2 /* Pods_PurpleCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66BB1E5033157A6F09D82C4 /* Pods_PurpleCoinTests.framework */; };
 		E3715EC89102183D524D6725 /* Pods_PurpleCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13891B952BD7B187B6A35270 /* Pods_PurpleCoin.framework */; };
@@ -61,6 +62,7 @@
 		409286D12B3568DA00E89F62 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
 		409286D32B35695000E89F62 /* DetailCoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoinView.swift; sourceTree = "<group>"; };
 		409286D52B35695700E89F62 /* DetailCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoinViewController.swift; sourceTree = "<group>"; };
+		409286D92B35703000E89F62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		70FED6C54BEADE5F81A7F666 /* Pods-PurpleCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoinTests.release.xcconfig"; path = "Target Support Files/Pods-PurpleCoinTests/Pods-PurpleCoinTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurpleCoin_PurpleCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B78195EA0C025699F14B6D3 /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				409286B52B3519D200E89F62 /* Domain */,
 				409286B62B3519D600E89F62 /* Services */,
 				409286D72B356D0E00E89F62 /* Resources */,
+				409286D82B356FE200E89F62 /* Common */,
 			);
 			path = PurpleCoin;
 			sourceTree = "<group>";
@@ -322,6 +325,14 @@
 				4092868C2B3515D300E89F62 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		409286D82B356FE200E89F62 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				409286D92B35703000E89F62 /* Constants.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		92BE295D36BAADAE2550A61C /* Frameworks */ = {
@@ -556,6 +567,7 @@
 				409286D62B35695700E89F62 /* DetailCoinViewController.swift in Sources */,
 				409286862B3515D100E89F62 /* SceneDelegate.swift in Sources */,
 				409286D22B3568DA00E89F62 /* MarketViewController.swift in Sources */,
+				409286DA2B35703000E89F62 /* Constants.swift in Sources */,
 				409286CE2B3567FB00E89F62 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
