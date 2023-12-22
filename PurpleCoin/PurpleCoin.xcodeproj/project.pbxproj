@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		409286842B3515D100E89F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286832B3515D100E89F62 /* AppDelegate.swift */; };
 		409286862B3515D100E89F62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286852B3515D100E89F62 /* SceneDelegate.swift */; };
-		409286882B3515D100E89F62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286872B3515D100E89F62 /* ViewController.swift */; };
 		4092868D2B3515D300E89F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4092868C2B3515D300E89F62 /* Assets.xcassets */; };
 		409286902B3515D300E89F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4092868E2B3515D300E89F62 /* LaunchScreen.storyboard */; };
 		4092869B2B3515D300E89F62 /* PurpleCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092869A2B3515D300E89F62 /* PurpleCoinTests.swift */; };
 		409286A52B3515D300E89F62 /* PurpleCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286A42B3515D300E89F62 /* PurpleCoinUITests.swift */; };
 		409286A72B3515D300E89F62 /* PurpleCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286A62B3515D300E89F62 /* PurpleCoinUITestsLaunchTests.swift */; };
+		409286CC2B3567F500E89F62 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286CB2B3567F500E89F62 /* MainView.swift */; };
+		409286CE2B3567FB00E89F62 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286CD2B3567FB00E89F62 /* MainViewController.swift */; };
+		409286D02B3568D500E89F62 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286CF2B3568D500E89F62 /* MarketView.swift */; };
+		409286D22B3568DA00E89F62 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286D12B3568DA00E89F62 /* MarketViewController.swift */; };
+		409286D42B35695000E89F62 /* DetailCoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286D32B35695000E89F62 /* DetailCoinView.swift */; };
+		409286D62B35695700E89F62 /* DetailCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286D52B35695700E89F62 /* DetailCoinViewController.swift */; };
 		683B9D0C853020C7F9FAAF13 /* Pods_PurpleCoin_PurpleCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */; };
 		7C71EBA7FB50F1FBD4DDB2E2 /* Pods_PurpleCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66BB1E5033157A6F09D82C4 /* Pods_PurpleCoinTests.framework */; };
 		E3715EC89102183D524D6725 /* Pods_PurpleCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13891B952BD7B187B6A35270 /* Pods_PurpleCoin.framework */; };
@@ -42,7 +47,6 @@
 		409286802B3515D100E89F62 /* PurpleCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurpleCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		409286832B3515D100E89F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		409286852B3515D100E89F62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		409286872B3515D100E89F62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4092868C2B3515D300E89F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4092868F2B3515D300E89F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		409286912B3515D300E89F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		409286A02B3515D300E89F62 /* PurpleCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurpleCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		409286A42B3515D300E89F62 /* PurpleCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleCoinUITests.swift; sourceTree = "<group>"; };
 		409286A62B3515D300E89F62 /* PurpleCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		409286CB2B3567F500E89F62 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		409286CD2B3567FB00E89F62 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		409286CF2B3568D500E89F62 /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		409286D12B3568DA00E89F62 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		409286D32B35695000E89F62 /* DetailCoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoinView.swift; sourceTree = "<group>"; };
+		409286D52B35695700E89F62 /* DetailCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoinViewController.swift; sourceTree = "<group>"; };
 		70FED6C54BEADE5F81A7F666 /* Pods-PurpleCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoinTests.release.xcconfig"; path = "Target Support Files/Pods-PurpleCoinTests/Pods-PurpleCoinTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurpleCoin_PurpleCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B78195EA0C025699F14B6D3 /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,10 +128,7 @@
 				409286B42B3519C800E89F62 /* Presentation */,
 				409286B52B3519D200E89F62 /* Domain */,
 				409286B62B3519D600E89F62 /* Services */,
-				409286872B3515D100E89F62 /* ViewController.swift */,
-				4092868C2B3515D300E89F62 /* Assets.xcassets */,
-				4092868E2B3515D300E89F62 /* LaunchScreen.storyboard */,
-				409286912B3515D300E89F62 /* Info.plist */,
+				409286D72B356D0E00E89F62 /* Resources */,
 			);
 			path = PurpleCoin;
 			sourceTree = "<group>";
@@ -262,6 +269,8 @@
 		409286C12B351AF000E89F62 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				409286CB2B3567F500E89F62 /* MainView.swift */,
+				409286CD2B3567FB00E89F62 /* MainViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -276,6 +285,8 @@
 		409286C32B351B0000E89F62 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				409286D32B35695000E89F62 /* DetailCoinView.swift */,
+				409286D52B35695700E89F62 /* DetailCoinViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +301,8 @@
 		409286C52B351B0600E89F62 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				409286CF2B3568D500E89F62 /* MarketView.swift */,
+				409286D12B3568DA00E89F62 /* MarketViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -299,6 +312,16 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		409286D72B356D0E00E89F62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				409286912B3515D300E89F62 /* Info.plist */,
+				4092868E2B3515D300E89F62 /* LaunchScreen.storyboard */,
+				4092868C2B3515D300E89F62 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		92BE295D36BAADAE2550A61C /* Frameworks */ = {
@@ -526,9 +549,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409286882B3515D100E89F62 /* ViewController.swift in Sources */,
+				409286CC2B3567F500E89F62 /* MainView.swift in Sources */,
+				409286D02B3568D500E89F62 /* MarketView.swift in Sources */,
+				409286D42B35695000E89F62 /* DetailCoinView.swift in Sources */,
 				409286842B3515D100E89F62 /* AppDelegate.swift in Sources */,
+				409286D62B35695700E89F62 /* DetailCoinViewController.swift in Sources */,
 				409286862B3515D100E89F62 /* SceneDelegate.swift in Sources */,
+				409286D22B3568DA00E89F62 /* MarketViewController.swift in Sources */,
+				409286CE2B3567FB00E89F62 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
