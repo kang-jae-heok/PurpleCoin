@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		409286842B3515D100E89F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286832B3515D100E89F62 /* AppDelegate.swift */; };
+		409286862B3515D100E89F62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286852B3515D100E89F62 /* SceneDelegate.swift */; };
+		409286882B3515D100E89F62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286872B3515D100E89F62 /* ViewController.swift */; };
+		4092868D2B3515D300E89F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4092868C2B3515D300E89F62 /* Assets.xcassets */; };
+		409286902B3515D300E89F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4092868E2B3515D300E89F62 /* LaunchScreen.storyboard */; };
+		4092869B2B3515D300E89F62 /* PurpleCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092869A2B3515D300E89F62 /* PurpleCoinTests.swift */; };
+		409286A52B3515D300E89F62 /* PurpleCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286A42B3515D300E89F62 /* PurpleCoinUITests.swift */; };
+		409286A72B3515D300E89F62 /* PurpleCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286A62B3515D300E89F62 /* PurpleCoinUITestsLaunchTests.swift */; };
+		683B9D0C853020C7F9FAAF13 /* Pods_PurpleCoin_PurpleCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */; };
+		7C71EBA7FB50F1FBD4DDB2E2 /* Pods_PurpleCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66BB1E5033157A6F09D82C4 /* Pods_PurpleCoinTests.framework */; };
+		E3715EC89102183D524D6725 /* Pods_PurpleCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13891B952BD7B187B6A35270 /* Pods_PurpleCoin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		409286972B3515D300E89F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409286782B3515D100E89F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4092867F2B3515D100E89F62;
+			remoteInfo = PurpleCoin;
+		};
+		409286A12B3515D300E89F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409286782B3515D100E89F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4092867F2B3515D100E89F62;
+			remoteInfo = PurpleCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13891B952BD7B187B6A35270 /* Pods_PurpleCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurpleCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409286802B3515D100E89F62 /* PurpleCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurpleCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		409286832B3515D100E89F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		409286852B3515D100E89F62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		409286872B3515D100E89F62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4092868C2B3515D300E89F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4092868F2B3515D300E89F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		409286912B3515D300E89F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409286962B3515D300E89F62 /* PurpleCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurpleCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4092869A2B3515D300E89F62 /* PurpleCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleCoinTests.swift; sourceTree = "<group>"; };
+		409286A02B3515D300E89F62 /* PurpleCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurpleCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		409286A42B3515D300E89F62 /* PurpleCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleCoinUITests.swift; sourceTree = "<group>"; };
+		409286A62B3515D300E89F62 /* PurpleCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70FED6C54BEADE5F81A7F666 /* Pods-PurpleCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoinTests.release.xcconfig"; path = "Target Support Files/Pods-PurpleCoinTests/Pods-PurpleCoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurpleCoin_PurpleCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B78195EA0C025699F14B6D3 /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CFA0BC7C5042A9760A84C84 /* Pods-PurpleCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin.release.xcconfig"; path = "Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin.release.xcconfig"; sourceTree = "<group>"; };
+		BA8538E34C875980AD111D2D /* Pods-PurpleCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin.debug.xcconfig"; path = "Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		C2426DB778797C47CDCD1CB9 /* Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig"; path = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE6DD89E6CBD599458A3CCF0 /* Pods-PurpleCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoinTests.debug.xcconfig"; path = "Target Support Files/Pods-PurpleCoinTests/Pods-PurpleCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E66BB1E5033157A6F09D82C4 /* Pods_PurpleCoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurpleCoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4092867D2B3515D100E89F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3715EC89102183D524D6725 /* Pods_PurpleCoin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409286932B3515D300E89F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C71EBA7FB50F1FBD4DDB2E2 /* Pods_PurpleCoinTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4092869D2B3515D300E89F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683B9D0C853020C7F9FAAF13 /* Pods_PurpleCoin_PurpleCoinUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		409286772B3515D100E89F62 = {
+			isa = PBXGroup;
+			children = (
+				409286822B3515D100E89F62 /* PurpleCoin */,
+				409286992B3515D300E89F62 /* PurpleCoinTests */,
+				409286A32B3515D300E89F62 /* PurpleCoinUITests */,
+				409286812B3515D100E89F62 /* Products */,
+				E1D1E726815D02C2F5E4517F /* Pods */,
+				92BE295D36BAADAE2550A61C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		409286812B3515D100E89F62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409286802B3515D100E89F62 /* PurpleCoin.app */,
+				409286962B3515D300E89F62 /* PurpleCoinTests.xctest */,
+				409286A02B3515D300E89F62 /* PurpleCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409286822B3515D100E89F62 /* PurpleCoin */ = {
+			isa = PBXGroup;
+			children = (
+				409286B32B3519BA00E89F62 /* Application */,
+				409286B42B3519C800E89F62 /* Presentation */,
+				409286B52B3519D200E89F62 /* Domain */,
+				409286B62B3519D600E89F62 /* Services */,
+				409286872B3515D100E89F62 /* ViewController.swift */,
+				4092868C2B3515D300E89F62 /* Assets.xcassets */,
+				4092868E2B3515D300E89F62 /* LaunchScreen.storyboard */,
+				409286912B3515D300E89F62 /* Info.plist */,
+			);
+			path = PurpleCoin;
+			sourceTree = "<group>";
+		};
+		409286992B3515D300E89F62 /* PurpleCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				4092869A2B3515D300E89F62 /* PurpleCoinTests.swift */,
+			);
+			path = PurpleCoinTests;
+			sourceTree = "<group>";
+		};
+		409286A32B3515D300E89F62 /* PurpleCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				409286A42B3515D300E89F62 /* PurpleCoinUITests.swift */,
+				409286A62B3515D300E89F62 /* PurpleCoinUITestsLaunchTests.swift */,
+			);
+			path = PurpleCoinUITests;
+			sourceTree = "<group>";
+		};
+		409286B32B3519BA00E89F62 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				409286832B3515D100E89F62 /* AppDelegate.swift */,
+				409286852B3515D100E89F62 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		409286B42B3519C800E89F62 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				409286BC2B351A7C00E89F62 /* Utils */,
+				409286BB2B351A7400E89F62 /* Main */,
+				409286C02B351AC000E89F62 /* DetailCoin */,
+				409286BF2B351AAF00E89F62 /* Market */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		409286B52B3519D200E89F62 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				409286BA2B351A6E00E89F62 /* Protocol */,
+				409286B92B351A6800E89F62 /* UseCases */,
+				409286B82B351A2000E89F62 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		409286B62B3519D600E89F62 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				409286B72B351A1B00E89F62 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		409286B72B351A1B00E89F62 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		409286B82B351A2000E89F62 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		409286B92B351A6800E89F62 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		409286BA2B351A6E00E89F62 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		409286BB2B351A7400E89F62 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				409286C22B351AFB00E89F62 /* ViewModel */,
+				409286C12B351AF000E89F62 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		409286BC2B351A7C00E89F62 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				409286BE2B351A9E00E89F62 /* Protocol */,
+				409286BD2B351A9800E89F62 /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		409286BD2B351A9800E89F62 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		409286BE2B351A9E00E89F62 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		409286BF2B351AAF00E89F62 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				409286C62B351B0900E89F62 /* ViewModel */,
+				409286C52B351B0600E89F62 /* View */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		409286C02B351AC000E89F62 /* DetailCoin */ = {
+			isa = PBXGroup;
+			children = (
+				409286C42B351B0200E89F62 /* ViewModel */,
+				409286C32B351B0000E89F62 /* View */,
+			);
+			path = DetailCoin;
+			sourceTree = "<group>";
+		};
+		409286C12B351AF000E89F62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		409286C22B351AFB00E89F62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		409286C32B351B0000E89F62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		409286C42B351B0200E89F62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		409286C52B351B0600E89F62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		409286C62B351B0900E89F62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		92BE295D36BAADAE2550A61C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13891B952BD7B187B6A35270 /* Pods_PurpleCoin.framework */,
+				8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */,
+				E66BB1E5033157A6F09D82C4 /* Pods_PurpleCoinTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1D1E726815D02C2F5E4517F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA8538E34C875980AD111D2D /* Pods-PurpleCoin.debug.xcconfig */,
+				9CFA0BC7C5042A9760A84C84 /* Pods-PurpleCoin.release.xcconfig */,
+				9B78195EA0C025699F14B6D3 /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */,
+				C2426DB778797C47CDCD1CB9 /* Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig */,
+				DE6DD89E6CBD599458A3CCF0 /* Pods-PurpleCoinTests.debug.xcconfig */,
+				70FED6C54BEADE5F81A7F666 /* Pods-PurpleCoinTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4092867F2B3515D100E89F62 /* PurpleCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409286AA2B3515D300E89F62 /* Build configuration list for PBXNativeTarget "PurpleCoin" */;
+			buildPhases = (
+				472BECDB4FBCDF1EC1981556 /* [CP] Check Pods Manifest.lock */,
+				4092867C2B3515D100E89F62 /* Sources */,
+				4092867D2B3515D100E89F62 /* Frameworks */,
+				4092867E2B3515D100E89F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PurpleCoin;
+			productName = PurpleCoin;
+			productReference = 409286802B3515D100E89F62 /* PurpleCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		409286952B3515D300E89F62 /* PurpleCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409286AD2B3515D300E89F62 /* Build configuration list for PBXNativeTarget "PurpleCoinTests" */;
+			buildPhases = (
+				5102FE9A8B41EE7093497886 /* [CP] Check Pods Manifest.lock */,
+				409286922B3515D300E89F62 /* Sources */,
+				409286932B3515D300E89F62 /* Frameworks */,
+				409286942B3515D300E89F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409286982B3515D300E89F62 /* PBXTargetDependency */,
+			);
+			name = PurpleCoinTests;
+			productName = PurpleCoinTests;
+			productReference = 409286962B3515D300E89F62 /* PurpleCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4092869F2B3515D300E89F62 /* PurpleCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409286B02B3515D300E89F62 /* Build configuration list for PBXNativeTarget "PurpleCoinUITests" */;
+			buildPhases = (
+				02E7EE66A7C2276043392AE2 /* [CP] Check Pods Manifest.lock */,
+				4092869C2B3515D300E89F62 /* Sources */,
+				4092869D2B3515D300E89F62 /* Frameworks */,
+				4092869E2B3515D300E89F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409286A22B3515D300E89F62 /* PBXTargetDependency */,
+			);
+			name = PurpleCoinUITests;
+			productName = PurpleCoinUITests;
+			productReference = 409286A02B3515D300E89F62 /* PurpleCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409286782B3515D100E89F62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4092867F2B3515D100E89F62 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					409286952B3515D300E89F62 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4092867F2B3515D100E89F62;
+					};
+					4092869F2B3515D300E89F62 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4092867F2B3515D100E89F62;
+					};
+				};
+			};
+			buildConfigurationList = 4092867B2B3515D100E89F62 /* Build configuration list for PBXProject "PurpleCoin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 409286772B3515D100E89F62;
+			productRefGroup = 409286812B3515D100E89F62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4092867F2B3515D100E89F62 /* PurpleCoin */,
+				409286952B3515D300E89F62 /* PurpleCoinTests */,
+				4092869F2B3515D300E89F62 /* PurpleCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4092867E2B3515D100E89F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409286902B3515D300E89F62 /* LaunchScreen.storyboard in Resources */,
+				4092868D2B3515D300E89F62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409286942B3515D300E89F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4092869E2B3515D300E89F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02E7EE66A7C2276043392AE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PurpleCoin-PurpleCoinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		472BECDB4FBCDF1EC1981556 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PurpleCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5102FE9A8B41EE7093497886 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PurpleCoinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4092867C2B3515D100E89F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409286882B3515D100E89F62 /* ViewController.swift in Sources */,
+				409286842B3515D100E89F62 /* AppDelegate.swift in Sources */,
+				409286862B3515D100E89F62 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409286922B3515D300E89F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4092869B2B3515D300E89F62 /* PurpleCoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4092869C2B3515D300E89F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409286A52B3515D300E89F62 /* PurpleCoinUITests.swift in Sources */,
+				409286A72B3515D300E89F62 /* PurpleCoinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		409286982B3515D300E89F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4092867F2B3515D100E89F62 /* PurpleCoin */;
+			targetProxy = 409286972B3515D300E89F62 /* PBXContainerItemProxy */;
+		};
+		409286A22B3515D300E89F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4092867F2B3515D100E89F62 /* PurpleCoin */;
+			targetProxy = 409286A12B3515D300E89F62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4092868E2B3515D300E89F62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4092868F2B3515D300E89F62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		409286A82B3515D300E89F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		409286A92B3515D300E89F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		409286AB2B3515D300E89F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8538E34C875980AD111D2D /* Pods-PurpleCoin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHW94B5XTB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PurpleCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kang.PurpleCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		409286AC2B3515D300E89F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFA0BC7C5042A9760A84C84 /* Pods-PurpleCoin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHW94B5XTB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PurpleCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kang.PurpleCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		409286AE2B3515D300E89F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6DD89E6CBD599458A3CCF0 /* Pods-PurpleCoinTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHW94B5XTB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kang.PurpleCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PurpleCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PurpleCoin";
+			};
+			name = Debug;
+		};
+		409286AF2B3515D300E89F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FED6C54BEADE5F81A7F666 /* Pods-PurpleCoinTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHW94B5XTB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kang.PurpleCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PurpleCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PurpleCoin";
+			};
+			name = Release;
+		};
+		409286B12B3515D300E89F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B78195EA0C025699F14B6D3 /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHW94B5XTB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kang.PurpleCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PurpleCoin;
+			};
+			name = Debug;
+		};
+		409286B22B3515D300E89F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2426DB778797C47CDCD1CB9 /* Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHW94B5XTB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kang.PurpleCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PurpleCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4092867B2B3515D100E89F62 /* Build configuration list for PBXProject "PurpleCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409286A82B3515D300E89F62 /* Debug */,
+				409286A92B3515D300E89F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409286AA2B3515D300E89F62 /* Build configuration list for PBXNativeTarget "PurpleCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409286AB2B3515D300E89F62 /* Debug */,
+				409286AC2B3515D300E89F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409286AD2B3515D300E89F62 /* Build configuration list for PBXNativeTarget "PurpleCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409286AE2B3515D300E89F62 /* Debug */,
+				409286AF2B3515D300E89F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409286B02B3515D300E89F62 /* Build configuration list for PBXNativeTarget "PurpleCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409286B12B3515D300E89F62 /* Debug */,
+				409286B22B3515D300E89F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 409286782B3515D100E89F62 /* Project object */;
+}

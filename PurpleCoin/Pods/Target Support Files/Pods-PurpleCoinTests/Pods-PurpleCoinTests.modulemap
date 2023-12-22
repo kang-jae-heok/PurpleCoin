@@ -1,0 +1,6 @@
+framework module Pods_PurpleCoinTests {
+  umbrella header "Pods-PurpleCoinTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
