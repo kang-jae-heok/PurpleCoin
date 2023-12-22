@@ -7,6 +7,25 @@
 
 import UIKit
 
+enum PurpleCoinFont {
+    enum fontType: String {
+        case extraBold = "ExtraBold"
+        case bold = "BOLD"
+        case semibold = "SEMIBOLD"
+        case medium = "MEDIUM"
+        case light = "LIGHT"
+        case regular = "REGULAR"
+    }
+    static func font(type: fontType, size: CGFloat) -> UIFont {
+        let fontSize = size// * ScreenFigure.ratioValue
+        let fontName = "AppleSDGothicNeo-" + type.rawValue
+        guard let font = UIFont(name: fontName, size: fontSize) else {
+            return UIFont.systemFont(ofSize: size)
+        }
+        return font
+    }
+}
+
 enum PurpleCoinColor {
     static let pointColor = UIColor(red: 0.196, green: 0.055, blue: 0.337, alpha: 1)
     static let lightPointColor = UIColor(red: 0.358, green: 0.217, blue: 0.5, alpha: 1)
