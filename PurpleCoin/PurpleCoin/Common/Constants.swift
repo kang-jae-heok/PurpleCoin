@@ -7,6 +7,37 @@
 
 import UIKit
 
+enum ScreenFigure {
+    static let bounds = UIScreen.main.bounds
+    static let HRatioValue = UIScreen.main.bounds.width / 390
+    static let VRatioValue = UIScreen.main.bounds.height / 844
+    static let margin: CGFloat = 17
+    
+    static func notchHeight() -> CGFloat {
+        if UIDevice.current.isNotch {
+            return 0.0
+        } else {
+            return 24.0
+        }
+    }
+    
+    static func topViewHeight() -> CGFloat {
+        if UIDevice.current.isNotch {
+            return 110 * ScreenFigure.VRatioValue
+        } else {
+            return 70
+        }
+    }
+    
+    static func bottomButtonHeight() -> CGFloat {
+        if UIDevice.current.isNotch {
+            return 80 * ScreenFigure.VRatioValue
+        } else {
+            return 70
+        }
+    }
+}
+
 enum PurpleCoinFont {
     enum fontType: String {
         case extraBold = "ExtraBold"
