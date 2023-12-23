@@ -26,6 +26,7 @@
 		79CDA6872B36AFD900633B65 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CDA6862B36AFD900633B65 /* UIDevice+.swift */; };
 		79CDA68A2B36B16F00633B65 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CDA6892B36B16E00633B65 /* home.png */; };
 		79CDA68C2B36B1B500633B65 /* asset.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CDA68B2B36B1B500633B65 /* asset.png */; };
+		79CDA68F2B36C02100633B65 /* AssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CDA68E2B36C02100633B65 /* AssetViewController.swift */; };
 		7C71EBA7FB50F1FBD4DDB2E2 /* Pods_PurpleCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66BB1E5033157A6F09D82C4 /* Pods_PurpleCoinTests.framework */; };
 		E3715EC89102183D524D6725 /* Pods_PurpleCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13891B952BD7B187B6A35270 /* Pods_PurpleCoin.framework */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 		79CDA6862B36AFD900633B65 /* UIDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
 		79CDA6892B36B16E00633B65 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		79CDA68B2B36B1B500633B65 /* asset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asset.png; sourceTree = "<group>"; };
+		79CDA68E2B36C02100633B65 /* AssetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetViewController.swift; sourceTree = "<group>"; };
 		8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurpleCoin_PurpleCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B78195EA0C025699F14B6D3 /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CFA0BC7C5042A9760A84C84 /* Pods-PurpleCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin.release.xcconfig"; path = "Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 		409286B42B3519C800E89F62 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				79CDA68D2B36C01600633B65 /* Asset */,
 				79CDA6732B36AB2800633B65 /* Utils */,
 				409286BB2B351A7400E89F62 /* Main */,
 				409286C02B351AC000E89F62 /* DetailCoin */,
@@ -281,6 +284,14 @@
 				79CDA6892B36B16E00633B65 /* home.png */,
 			);
 			path = Icon;
+			sourceTree = "<group>";
+		};
+		79CDA68D2B36C01600633B65 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				79CDA68E2B36C02100633B65 /* AssetViewController.swift */,
+			);
+			path = Asset;
 			sourceTree = "<group>";
 		};
 		92BE295D36BAADAE2550A61C /* Frameworks */ = {
@@ -553,6 +564,7 @@
 				409286842B3515D100E89F62 /* AppDelegate.swift in Sources */,
 				409286D62B35695700E89F62 /* DetailCoinViewController.swift in Sources */,
 				409286862B3515D100E89F62 /* SceneDelegate.swift in Sources */,
+				79CDA68F2B36C02100633B65 /* AssetViewController.swift in Sources */,
 				79CDA6832B36AF9B00633B65 /* BottomNavigationView.swift in Sources */,
 				409286D22B3568DA00E89F62 /* MarketViewController.swift in Sources */,
 				409286DA2B35703000E89F62 /* Constants.swift in Sources */,
