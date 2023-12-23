@@ -22,8 +22,8 @@
 		409286D62B35695700E89F62 /* DetailCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286D52B35695700E89F62 /* DetailCoinViewController.swift */; };
 		409286DA2B35703000E89F62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409286D92B35703000E89F62 /* Constants.swift */; };
 		683B9D0C853020C7F9FAAF13 /* Pods_PurpleCoin_PurpleCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */; };
-		79CDA6702B36A95000633B65 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CDA66F2B36A95000633B65 /* BottomNavigationView.swift */; };
-		79CDA6772B36AB4900633B65 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CDA6762B36AB4900633B65 /* UIDevice+.swift */; };
+		79CDA6832B36AF9B00633B65 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CDA6822B36AF9B00633B65 /* BottomNavigationView.swift */; };
+		79CDA6872B36AFD900633B65 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CDA6862B36AFD900633B65 /* UIDevice+.swift */; };
 		7C71EBA7FB50F1FBD4DDB2E2 /* Pods_PurpleCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66BB1E5033157A6F09D82C4 /* Pods_PurpleCoinTests.framework */; };
 		E3715EC89102183D524D6725 /* Pods_PurpleCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13891B952BD7B187B6A35270 /* Pods_PurpleCoin.framework */; };
 /* End PBXBuildFile section */
@@ -66,8 +66,8 @@
 		409286D52B35695700E89F62 /* DetailCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoinViewController.swift; sourceTree = "<group>"; };
 		409286D92B35703000E89F62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		70FED6C54BEADE5F81A7F666 /* Pods-PurpleCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoinTests.release.xcconfig"; path = "Target Support Files/Pods-PurpleCoinTests/Pods-PurpleCoinTests.release.xcconfig"; sourceTree = "<group>"; };
-		79CDA66F2B36A95000633B65 /* BottomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BottomNavigationView.swift; path = ../../../../../../../../BottomNavigationView.swift; sourceTree = "<group>"; };
-		79CDA6762B36AB4900633B65 /* UIDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIDevice+.swift"; path = "../../../../../../../UIDevice+.swift"; sourceTree = "<group>"; };
+		79CDA6822B36AF9B00633B65 /* BottomNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomNavigationView.swift; sourceTree = "<group>"; };
+		79CDA6862B36AFD900633B65 /* UIDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
 		8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurpleCoin_PurpleCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B78195EA0C025699F14B6D3 /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CFA0BC7C5042A9760A84C84 /* Pods-PurpleCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin.release.xcconfig"; path = "Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,8 +132,6 @@
 			children = (
 				409286B32B3519BA00E89F62 /* Application */,
 				409286B42B3519C800E89F62 /* Presentation */,
-				409286B52B3519D200E89F62 /* Domain */,
-				409286B62B3519D600E89F62 /* Services */,
 				409286D72B356D0E00E89F62 /* Resources */,
 				409286D82B356FE200E89F62 /* Common */,
 			);
@@ -177,56 +175,9 @@
 			path = Presentation;
 			sourceTree = "<group>";
 		};
-		409286B52B3519D200E89F62 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				409286BA2B351A6E00E89F62 /* Protocol */,
-				409286B92B351A6800E89F62 /* UseCases */,
-				409286B82B351A2000E89F62 /* Entities */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		409286B62B3519D600E89F62 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				409286B72B351A1B00E89F62 /* Network */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		409286B72B351A1B00E89F62 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		409286B82B351A2000E89F62 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		409286B92B351A6800E89F62 /* UseCases */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UseCases;
-			sourceTree = "<group>";
-		};
-		409286BA2B351A6E00E89F62 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
 		409286BB2B351A7400E89F62 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				409286C22B351AFB00E89F62 /* ViewModel */,
 				409286C12B351AF000E89F62 /* View */,
 			);
 			path = Main;
@@ -235,7 +186,6 @@
 		409286BF2B351AAF00E89F62 /* Market */ = {
 			isa = PBXGroup;
 			children = (
-				409286C62B351B0900E89F62 /* ViewModel */,
 				409286C52B351B0600E89F62 /* View */,
 			);
 			path = Market;
@@ -244,7 +194,6 @@
 		409286C02B351AC000E89F62 /* DetailCoin */ = {
 			isa = PBXGroup;
 			children = (
-				409286C42B351B0200E89F62 /* ViewModel */,
 				409286C32B351B0000E89F62 /* View */,
 			);
 			path = DetailCoin;
@@ -260,13 +209,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		409286C22B351AFB00E89F62 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		409286C32B351B0000E89F62 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,13 +218,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		409286C42B351B0200E89F62 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		409286C52B351B0600E89F62 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,13 +225,6 @@
 				409286D12B3568DA00E89F62 /* MarketViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		409286C62B351B0900E89F62 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		409286D72B356D0E00E89F62 /* Resources */ = {
@@ -320,7 +248,7 @@
 		79CDA66E2B36A91300633B65 /* Sub */ = {
 			isa = PBXGroup;
 			children = (
-				79CDA66F2B36A95000633B65 /* BottomNavigationView.swift */,
+				79CDA6822B36AF9B00633B65 /* BottomNavigationView.swift */,
 			);
 			path = Sub;
 			sourceTree = "<group>";
@@ -328,15 +256,15 @@
 		79CDA6732B36AB2800633B65 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				79CDA6742B36AB3400633B65 /* Extension */,
+				79CDA6782B36AE2900633B65 /* Extension */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		79CDA6742B36AB3400633B65 /* Extension */ = {
+		79CDA6782B36AE2900633B65 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				79CDA6762B36AB4900633B65 /* UIDevice+.swift */,
+				79CDA6862B36AFD900633B65 /* UIDevice+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -604,13 +532,13 @@
 			files = (
 				409286CC2B3567F500E89F62 /* MainView.swift in Sources */,
 				409286D02B3568D500E89F62 /* MarketView.swift in Sources */,
+				79CDA6872B36AFD900633B65 /* UIDevice+.swift in Sources */,
 				409286D42B35695000E89F62 /* DetailCoinView.swift in Sources */,
 				409286842B3515D100E89F62 /* AppDelegate.swift in Sources */,
 				409286D62B35695700E89F62 /* DetailCoinViewController.swift in Sources */,
 				409286862B3515D100E89F62 /* SceneDelegate.swift in Sources */,
-				79CDA6772B36AB4900633B65 /* UIDevice+.swift in Sources */,
+				79CDA6832B36AF9B00633B65 /* BottomNavigationView.swift in Sources */,
 				409286D22B3568DA00E89F62 /* MarketViewController.swift in Sources */,
-				79CDA6702B36A95000633B65 /* BottomNavigationView.swift in Sources */,
 				409286DA2B35703000E89F62 /* Constants.swift in Sources */,
 				409286CE2B3567FB00E89F62 /* MainViewController.swift in Sources */,
 			);
