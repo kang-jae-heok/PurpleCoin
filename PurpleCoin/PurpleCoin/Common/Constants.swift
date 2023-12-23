@@ -29,7 +29,7 @@ enum ScreenFigure {
         }
     }
     
-    static func bottomButtonHeight() -> CGFloat {
+    static func bottomNavigationViewHeight() -> CGFloat {
         if UIDevice.current.isNotch {
             return 80 * ScreenFigure.VRatioValue
         } else {
@@ -48,7 +48,7 @@ enum PurpleCoinFont {
         case regular = "REGULAR"
     }
     static func font(type: fontType, size: CGFloat) -> UIFont {
-        let fontSize = size// * ScreenFigure.ratioValue
+        let fontSize = size * ScreenFigure.HRatioValue
         let fontName = "AppleSDGothicNeo-" + type.rawValue
         guard let font = UIFont(name: fontName, size: fontSize) else {
             return UIFont.systemFont(ofSize: size)

@@ -24,6 +24,8 @@
 		683B9D0C853020C7F9FAAF13 /* Pods_PurpleCoin_PurpleCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */; };
 		79CDA6832B36AF9B00633B65 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CDA6822B36AF9B00633B65 /* BottomNavigationView.swift */; };
 		79CDA6872B36AFD900633B65 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CDA6862B36AFD900633B65 /* UIDevice+.swift */; };
+		79CDA68A2B36B16F00633B65 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CDA6892B36B16E00633B65 /* home.png */; };
+		79CDA68C2B36B1B500633B65 /* asset.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CDA68B2B36B1B500633B65 /* asset.png */; };
 		7C71EBA7FB50F1FBD4DDB2E2 /* Pods_PurpleCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66BB1E5033157A6F09D82C4 /* Pods_PurpleCoinTests.framework */; };
 		E3715EC89102183D524D6725 /* Pods_PurpleCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13891B952BD7B187B6A35270 /* Pods_PurpleCoin.framework */; };
 /* End PBXBuildFile section */
@@ -68,6 +70,8 @@
 		70FED6C54BEADE5F81A7F666 /* Pods-PurpleCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoinTests.release.xcconfig"; path = "Target Support Files/Pods-PurpleCoinTests/Pods-PurpleCoinTests.release.xcconfig"; sourceTree = "<group>"; };
 		79CDA6822B36AF9B00633B65 /* BottomNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomNavigationView.swift; sourceTree = "<group>"; };
 		79CDA6862B36AFD900633B65 /* UIDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
+		79CDA6892B36B16E00633B65 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		79CDA68B2B36B1B500633B65 /* asset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asset.png; sourceTree = "<group>"; };
 		8D013B30DED23B68BE98E30D /* Pods_PurpleCoin_PurpleCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurpleCoin_PurpleCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B78195EA0C025699F14B6D3 /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CFA0BC7C5042A9760A84C84 /* Pods-PurpleCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleCoin.release.xcconfig"; path = "Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin.release.xcconfig"; sourceTree = "<group>"; };
@@ -230,6 +234,7 @@
 		409286D72B356D0E00E89F62 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				79CDA6882B36B16300633B65 /* Icon */,
 				409286912B3515D300E89F62 /* Info.plist */,
 				4092868E2B3515D300E89F62 /* LaunchScreen.storyboard */,
 				4092868C2B3515D300E89F62 /* Assets.xcassets */,
@@ -267,6 +272,15 @@
 				79CDA6862B36AFD900633B65 /* UIDevice+.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		79CDA6882B36B16300633B65 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				79CDA68B2B36B1B500633B65 /* asset.png */,
+				79CDA6892B36B16E00633B65 /* home.png */,
+			);
+			path = Icon;
 			sourceTree = "<group>";
 		};
 		92BE295D36BAADAE2550A61C /* Frameworks */ = {
@@ -401,8 +415,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CDA68C2B36B1B500633B65 /* asset.png in Resources */,
 				409286902B3515D300E89F62 /* LaunchScreen.storyboard in Resources */,
 				4092868D2B3515D300E89F62 /* Assets.xcassets in Resources */,
+				79CDA68A2B36B16F00633B65 /* home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
