@@ -7,60 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18ACFC3A98908E12B515443BF7F15966 /* Pods-PurpleCoin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90526A1A1FB4C635068C4E18FD493B45 /* Pods-PurpleCoin-dummy.m */; };
-		1BDFDAC68E5A361BCEBD8CB847E86E00 /* Pods-PurpleCoinTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C80F49D9CC1A09D450D57F13CFA100D3 /* Pods-PurpleCoinTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		265D35754F18056CFDF52EC352BF1C25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8CE691221858A6560C3E658625130AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0F0F16BBCF6BD6405542D2113D1BA2CE /* Pods-PurpleCoin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF141D99031CE7FD7ED465391EB0A1B3 /* Pods-PurpleCoin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		144DA93A55A598F5197F10C729FBDD69 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */; };
+		17BE0F4E51B0FB968125F1A520607FD8 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB9BB47A2175181386A432C07253AE /* ConstraintMultiplierTarget.swift */; };
+		1BDFDAC68E5A361BCEBD8CB847E86E00 /* Pods-PurpleCoinTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D764B74996F74CF6CCE6E6995C3D3374 /* Pods-PurpleCoinTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E9EEA756F2774D73347F1660EEFE3E9 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */; };
+		274DF0E2BF04F6F4F9F1E70CF513A4F2 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A46A8054577838D49C60142EB88B13 /* ConstraintLayoutSupportDSL.swift */; };
+		3B60C02F6E42FD06B128473E00A94224 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D705690D879064ED84970813189D8D4 /* ConstraintLayoutSupport.swift */; };
+		3CD5FAFC746A76D73C3F501734199DFF /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E066869A95E00B949CBA4D2284C35F /* Typealiases.swift */; };
+		3DEDFA52B3A196F6D3E1F0937617628A /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF299D2EEB87E7DD02630E87B96224 /* ConstraintLayoutGuide+Extensions.swift */; };
+		43863B6D6A0E47B6648BB7B469736EDD /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C5B72775F6AF0891BF331F32FE10D /* LayoutConstraint.swift */; };
+		4CA13A0527BC57DE2C54A0F3B5ED8652 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C01543F3BCEDEE51ABAA696513D0B /* LayoutConstraintItem.swift */; };
+		51A4A1046676D304410544EB56732A49 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50380F281EC3EE769C85035CCEA77226 /* Constraint.swift */; };
+		5E8BA529DFB4529006967624044FEC1C /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56006AA49A060CA2830F32CD6F394823 /* ConstraintViewDSL.swift */; };
+		62F299B4704A7C95FB5866C6CDE2E2FD /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B200BD964F52F6693D4168248B8645 /* ConstraintOffsetTarget.swift */; };
+		7580FAAB1BDA52F5A969E5571D1A5973 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F460233F2A555D41511B6CCA66A124 /* ConstraintAttributes.swift */; };
+		7764AA5F6BBFC6ECE43959923DD007D3 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D358AA1606C7B2CDC8555485807E9E /* ConstraintDirectionalInsetTarget.swift */; };
+		825062025906CE93C5D124E1FD9A811E /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */; };
+		8449EB1DFD43E222D687D5A8D2088D2D /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0BE9F3D55FDB29EF516F6D6B1B6BCA /* ConstraintLayoutGuideDSL.swift */; };
+		8C6546C1EF4F153DF3795CC6FE189E5B /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549471CD1FE3A1E1865DD172864918D3 /* ConstraintInsets.swift */; };
+		8FD9CD608C4EAAFDE6AC7B8B9EF0FF5E /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D9F6F4E2364DFAF158E04AF5D5EAA /* ConstraintDescription.swift */; };
+		90FD5AE525E138A473723FD79AF73273 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE00ECC24C5CC6DC938204FF42AD0E5 /* ConstraintDSL.swift */; };
+		968B4874A9F12D67C8B901136C9C8157 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E13B89FFD81AACB7530769CA05EEA26B /* SnapKit-dummy.m */; };
+		9B865594696E9D81A28C13965EEAAE1E /* Pods-PurpleCoin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA855C914122C927968E841D460680 /* Pods-PurpleCoin-dummy.m */; };
+		A0F754C88A64972A40A9008B0AD52109 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91164BE769DA144776663FBF46785561 /* ConstraintDirectionalInsets.swift */; };
+		A4467357581E8345DD348683CC4111AF /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0116B84A6773B75FCBFCB479E740F0F3 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53D3AF15CE8D348306EF11619C5D166 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3B0B200350EAC8F42EF635FF31BD1 /* ConstraintMakerEditable.swift */; };
 		A6717A5661FA40D0A431BD1BECF12743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AC5BC4F01DE47185F66EAA37CC19C5D2 /* Pods-PurpleCoinTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8176036D273147336364ADE9EC6781 /* Pods-PurpleCoinTests-dummy.m */; };
-		EADD631FD680135DD6F03B1FEC9AF894 /* Pods-PurpleCoin-PurpleCoinUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 153868D4ECFEA6A4752F49CB1201E7A7 /* Pods-PurpleCoin-PurpleCoinUITests-dummy.m */; };
-		F5D0CA052FF1A60716B4E8D0FC8B51DE /* Pods-PurpleCoin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F6E69662C93D91325F16FF40084C710 /* Pods-PurpleCoin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC3DB4FE867F1D502B1CE56C35731798 /* Pods-PurpleCoin-PurpleCoinUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B7090D24ECEC47926872EDF70A1268 /* Pods-PurpleCoin-PurpleCoinUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D8AE3BC11F09D1E28A0920312DAC29 /* Pods-PurpleCoin-PurpleCoinUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3042750C532141E23BD4340F0696472 /* Pods-PurpleCoin-PurpleCoinUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A86A76189912F953FF55C117C549BFC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AC5BC4F01DE47185F66EAA37CC19C5D2 /* Pods-PurpleCoinTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AF5F76251BA1CF97223550864F2A4 /* Pods-PurpleCoinTests-dummy.m */; };
+		B543FD108C1C6AF6129CB4991553218B /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250E41DBB680A3A2ECDDD2210311B230 /* ConstraintConfig.swift */; };
+		BD333CDBCF5D2FD55920336FC271DF33 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474AFC560A8B414B467174737DBC891A /* ConstraintItem.swift */; };
+		BEBF920FEB959B46A76BAADF22E5CD15 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2EC377264B25FB0E67D150E37E87CD /* ConstraintInsetTarget.swift */; };
+		C61D3BC32A28A405C934C00039AD2583 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D990E0FED5B41C1F13AC6B08208A99B /* ConstraintConstantTarget.swift */; };
+		CB194156C900B767B0160AF72EDF354D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BC33167429B9926FB24A17F01568C /* ConstraintMaker.swift */; };
+		CB8E4BF0D710970BE2CB4C87ED1043E4 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FB64349F5678CE1709979CF0DD952 /* ConstraintMakerRelatable.swift */; };
+		CCA22C9F421C9E8C13009947816D8C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D012DC9B00A9D691907F148EE10F7C76 /* Pods-PurpleCoin-PurpleCoinUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B67795C2624209668E84C610845DAA /* Pods-PurpleCoin-PurpleCoinUITests-dummy.m */; };
+		D13D417B236E736EEAE7217B5CE3EC5C /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D02329E74D733C03BF6BAE1F564481 /* ConstraintMakerFinalizable.swift */; };
+		D59C2826AD288ECFF576B2AFA312716C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25479F58B67AA43E092C7B156C1B5C1B /* ConstraintRelation.swift */; };
+		D798CB7E1F037F7CA45C2A7640F123F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E36244E8BF4AC941E82DAF16DDF4BBC2 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716AD15FADF38A93170E034F2BCE457 /* ConstraintPriorityTarget.swift */; };
+		E8EAADACF3BAE33BDECBC7214EAE9CD2 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975CA5A0D26BC84F3EE9912FEBDA795 /* ConstraintRelatableTarget.swift */; };
+		EE6C364198A763EBBF49237035D86439 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C5188AE61F0E667CD9E7ED28CDD61C /* ConstraintLayoutGuide.swift */; };
+		F10586462FB54CEA169A1A7A469A926D /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038D2FAA2F6B073D1B64B8635F4E3E6 /* Debugging.swift */; };
+		F24D06C23DAB2F52A30C886A7A8177C7 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51E99894F75F00A281BE6A32FBDE495 /* ConstraintView.swift */; };
+		F2C817C166B2DE613222C41015A586C9 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A53CAF547D71AEFABE49D91B4E6816 /* ConstraintMakerPriortizable.swift */; };
+		F343BA4E457FFDB0165492AECAEF0BCC /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BD95F32F2E57D6B9100B77B93F013C /* ConstraintPriority.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4E2FFA03FB8FC519069578A0043D6BCB /* PBXContainerItemProxy */ = {
+		35E729DFBC764508D438AC5C15ABA5EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E411229CE7156931DF13A502B2F8C143;
 			remoteInfo = "Pods-PurpleCoin";
 		};
+		D4B8874D5D3A2A96820BCF9E1A5BDE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		E973A1DD50628824584BE7FAB55E877C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0858146C4F4EBDBBEA23AFB637F969AE /* Pods-PurpleCoin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PurpleCoin-acknowledgements.markdown"; sourceTree = "<group>"; };
-		153868D4ECFEA6A4752F49CB1201E7A7 /* Pods-PurpleCoin-PurpleCoinUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PurpleCoin-PurpleCoinUITests-dummy.m"; sourceTree = "<group>"; };
-		1907C316BA39CBFCFB7803CC61E1D74F /* Pods-PurpleCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoin.debug.xcconfig"; sourceTree = "<group>"; };
-		2F6E69662C93D91325F16FF40084C710 /* Pods-PurpleCoin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PurpleCoin-umbrella.h"; sourceTree = "<group>"; };
-		3381FAA7ED2D7B4D591E674BCA8809EE /* Pods-PurpleCoin-PurpleCoinUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoin-PurpleCoinUITests-Info.plist"; sourceTree = "<group>"; };
-		4741DC2E9865BC71FF22CE47710A4481 /* Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5A58C8CEF63FB2D12496C28FBA133D85 /* Pods-PurpleCoin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoin-Info.plist"; sourceTree = "<group>"; };
-		611FBD99F570D97015B857B46175C9E2 /* Pods-PurpleCoin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoin-acknowledgements.plist"; sourceTree = "<group>"; };
+		0116B84A6773B75FCBFCB479E740F0F3 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		06A02B97FBB308B6C0B01B6CCC31DC6D /* Pods-PurpleCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		09BF299D2EEB87E7DD02630E87B96224 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		0EC3FBFF34BFB42DCC1C4EB17C0944EA /* Pods-PurpleCoinTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PurpleCoinTests.modulemap"; sourceTree = "<group>"; };
+		11D02329E74D733C03BF6BAE1F564481 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		13F460233F2A555D41511B6CCA66A124 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		141BC33167429B9926FB24A17F01568C /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		1ABE8824098082D9984974C781C637B0 /* Pods-PurpleCoin-PurpleCoinUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PurpleCoin-PurpleCoinUITests.modulemap"; sourceTree = "<group>"; };
+		1C8AF5F76251BA1CF97223550864F2A4 /* Pods-PurpleCoinTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PurpleCoinTests-dummy.m"; sourceTree = "<group>"; };
+		250E41DBB680A3A2ECDDD2210311B230 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		25479F58B67AA43E092C7B156C1B5C1B /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		2975CA5A0D26BC84F3EE9912FEBDA795 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		2AC420AF02FD89969C62340773465695 /* Pods-PurpleCoinTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PurpleCoinTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E508CE8D1430BC0C2457ED292AAEFF0 /* Pods-PurpleCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoin.release.xcconfig"; sourceTree = "<group>"; };
+		391A6F8B42D2CD885F8F3C4CE6859439 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		3960FFA84F8964BACE2DC5F7ED634951 /* Pods-PurpleCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		3D705690D879064ED84970813189D8D4 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		43E53E322D2AAAD24E4F648A74B5A521 /* Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		464C01543F3BCEDEE51ABAA696513D0B /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		474AFC560A8B414B467174737DBC891A /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		47B200BD964F52F6693D4168248B8645 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		50380F281EC3EE769C85035CCEA77226 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		549471CD1FE3A1E1865DD172864918D3 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		56006AA49A060CA2830F32CD6F394823 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		58B67795C2624209668E84C610845DAA /* Pods-PurpleCoin-PurpleCoinUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PurpleCoin-PurpleCoinUITests-dummy.m"; sourceTree = "<group>"; };
+		66C5188AE61F0E667CD9E7ED28CDD61C /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		66DD5771B6234B1DA854C8EBAEB346E3 /* Pods-PurpleCoin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PurpleCoin-frameworks.sh"; sourceTree = "<group>"; };
+		67B91CDF95120EC2D40C5DB461C0FEC3 /* Pods-PurpleCoinTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoinTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		6D990E0FED5B41C1F13AC6B08208A99B /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		6E7125CBC7BC505FA86EC30422F848C5 /* Pods-PurpleCoinTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoinTests-Info.plist"; sourceTree = "<group>"; };
 		710C0A50C65F343E8C4B72B8B844457D /* Pods-PurpleCoinTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PurpleCoinTests"; path = Pods_PurpleCoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		724FB64349F5678CE1709979CF0DD952 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		778F645CAEA1C39F48C0776FFCB5943D /* Pods-PurpleCoinTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoinTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E8176036D273147336364ADE9EC6781 /* Pods-PurpleCoinTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PurpleCoinTests-dummy.m"; sourceTree = "<group>"; };
-		90526A1A1FB4C635068C4E18FD493B45 /* Pods-PurpleCoin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PurpleCoin-dummy.m"; sourceTree = "<group>"; };
+		7889131C1139F96BBDA94CEE2E694763 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		7AE00ECC24C5CC6DC938204FF42AD0E5 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		7C21E0C93A1141A1E2EB51575500E27D /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		7C2EC377264B25FB0E67D150E37E87CD /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		87DDD10FF650D544BD8809CD47D7B507 /* Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DF6CD29F922280B22DF92D95B4D25CD /* Pods-PurpleCoin-PurpleCoinUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoin-PurpleCoinUITests-Info.plist"; sourceTree = "<group>"; };
+		91164BE769DA144776663FBF46785561 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		91A53CAF547D71AEFABE49D91B4E6816 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		9358045187DA6A9C89EB0C86F6CCDED7 /* Pods-PurpleCoin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PurpleCoin"; path = Pods_PurpleCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9884EECB68E3E7ADF549516BC750ABDD /* Pods-PurpleCoinTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PurpleCoinTests.modulemap"; sourceTree = "<group>"; };
+		941A3E77FAF910F32D350634DAF92377 /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94EA5E6B8BDE2A11709985B44FFF562F /* Pods-PurpleCoin-PurpleCoinUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PurpleCoin-PurpleCoinUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9716AD15FADF38A93170E034F2BCE457 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE3CABF8057A36AB4F3DDA92CE2AB73D /* Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C80F49D9CC1A09D450D57F13CFA100D3 /* Pods-PurpleCoinTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PurpleCoinTests-umbrella.h"; sourceTree = "<group>"; };
-		CC26FFB384DF745413C3E573ECD0D870 /* Pods-PurpleCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoin.release.xcconfig"; sourceTree = "<group>"; };
+		9EBA855C914122C927968E841D460680 /* Pods-PurpleCoin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PurpleCoin-dummy.m"; sourceTree = "<group>"; };
+		A1CD432F32277BB93DEAADA626ECEC5B /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
+		A3042750C532141E23BD4340F0696472 /* Pods-PurpleCoin-PurpleCoinUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PurpleCoin-PurpleCoinUITests-umbrella.h"; sourceTree = "<group>"; };
+		A51E99894F75F00A281BE6A32FBDE495 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		A7D358AA1606C7B2CDC8555485807E9E /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Source/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		B0D7E4941D21389C395B5EFD42394F92 /* Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE0BE9F3D55FDB29EF516F6D6B1B6BCA /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		BFBBF6831B312663914EAF6B6DD515E3 /* Pods-PurpleCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4A46A8054577838D49C60142EB88B13 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		CB1D9F6F4E2364DFAF158E04AF5D5EAA /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		D038D2FAA2F6B073D1B64B8635F4E3E6 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
 		D36B35AD198E65EAE88AD4277004A00E /* Pods-PurpleCoin-PurpleCoinUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PurpleCoin-PurpleCoinUITests"; path = Pods_PurpleCoin_PurpleCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4FB329F529609FD60B3615208A11EDF /* Pods-PurpleCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoinTests.release.xcconfig"; sourceTree = "<group>"; };
-		DFB6CACFE5E1E1FE545A8E40A3207FCD /* Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DFEB26E3F3E4C7E6BA92AC2C0ED85DC4 /* Pods-PurpleCoin-PurpleCoinUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PurpleCoin-PurpleCoinUITests.modulemap"; sourceTree = "<group>"; };
-		E1B7090D24ECEC47926872EDF70A1268 /* Pods-PurpleCoin-PurpleCoinUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PurpleCoin-PurpleCoinUITests-umbrella.h"; sourceTree = "<group>"; };
-		F0DF508F9935119EF32C1C8A32706C4D /* Pods-PurpleCoinTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PurpleCoinTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F20934478F30C7B6F1EAD8E30D93A576 /* Pods-PurpleCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4411BE36CF6DF110F6F4683072D115B /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F57267770718048C9A9EE1735959951A /* Pods-PurpleCoin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PurpleCoin.modulemap"; sourceTree = "<group>"; };
-		FB5E88890729DCE270D1ED758227B550 /* Pods-PurpleCoinTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoinTests-Info.plist"; sourceTree = "<group>"; };
+		D3E070E366C7E580725AD693DC131D0E /* Pods-PurpleCoin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PurpleCoin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4E066869A95E00B949CBA4D2284C35F /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		D764B74996F74CF6CCE6E6995C3D3374 /* Pods-PurpleCoinTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PurpleCoinTests-umbrella.h"; sourceTree = "<group>"; };
+		D7FBA200E879240BEF2039E7782965A4 /* Pods-PurpleCoin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoin-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0918F17E015ABE6307E8237A9D51B10 /* Pods-PurpleCoin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PurpleCoin-Info.plist"; sourceTree = "<group>"; };
+		E13B89FFD81AACB7530769CA05EEA26B /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		E14A09DC3AD8CA84464FEC37F0FC99D1 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		E2C3B0B200350EAC8F42EF635FF31BD1 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		EBF8784D2EF055F57A2E0378462E7436 /* Pods-PurpleCoin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PurpleCoin.modulemap"; sourceTree = "<group>"; };
+		EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		F0BD95F32F2E57D6B9100B77B93F013C /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		F44C5B72775F6AF0891BF331F32FE10D /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		F7AB9BB47A2175181386A432C07253AE /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		FF141D99031CE7FD7ED465391EB0A1B3 /* Pods-PurpleCoin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PurpleCoin-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0355C57DE12DDAD534AF20A996CC4BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86A76189912F953FF55C117C549BFC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D031980A2D9C75D6A5D5F0BFAF41D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D798CB7E1F037F7CA45C2A7640F123F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FD5361C02FFAE1493C5BF7F8C43E597 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,65 +184,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		449A241C43D6E04A1452C7A273DEA30E /* Frameworks */ = {
+		9B30433E568C40FCE04D5188A9715448 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE691221858A6560C3E658625130AE2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9BB145A1BB1A673DFBD6C5A536C9162 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				265D35754F18056CFDF52EC352BF1C25 /* Foundation.framework in Frameworks */,
+				CCA22C9F421C9E8C13009947816D8C82 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0247394C77260B78720BC962140C082F /* Pods-PurpleCoin-PurpleCoinUITests */ = {
+		3665927BA0507AA3F2A4D20773E00FEF /* Pods-PurpleCoin */ = {
 			isa = PBXGroup;
 			children = (
-				DFEB26E3F3E4C7E6BA92AC2C0ED85DC4 /* Pods-PurpleCoin-PurpleCoinUITests.modulemap */,
-				AE3CABF8057A36AB4F3DDA92CE2AB73D /* Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.markdown */,
-				4741DC2E9865BC71FF22CE47710A4481 /* Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.plist */,
-				153868D4ECFEA6A4752F49CB1201E7A7 /* Pods-PurpleCoin-PurpleCoinUITests-dummy.m */,
-				3381FAA7ED2D7B4D591E674BCA8809EE /* Pods-PurpleCoin-PurpleCoinUITests-Info.plist */,
-				E1B7090D24ECEC47926872EDF70A1268 /* Pods-PurpleCoin-PurpleCoinUITests-umbrella.h */,
-				F4411BE36CF6DF110F6F4683072D115B /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */,
-				DFB6CACFE5E1E1FE545A8E40A3207FCD /* Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig */,
+				EBF8784D2EF055F57A2E0378462E7436 /* Pods-PurpleCoin.modulemap */,
+				D3E070E366C7E580725AD693DC131D0E /* Pods-PurpleCoin-acknowledgements.markdown */,
+				D7FBA200E879240BEF2039E7782965A4 /* Pods-PurpleCoin-acknowledgements.plist */,
+				9EBA855C914122C927968E841D460680 /* Pods-PurpleCoin-dummy.m */,
+				66DD5771B6234B1DA854C8EBAEB346E3 /* Pods-PurpleCoin-frameworks.sh */,
+				E0918F17E015ABE6307E8237A9D51B10 /* Pods-PurpleCoin-Info.plist */,
+				FF141D99031CE7FD7ED465391EB0A1B3 /* Pods-PurpleCoin-umbrella.h */,
+				3960FFA84F8964BACE2DC5F7ED634951 /* Pods-PurpleCoin.debug.xcconfig */,
+				2E508CE8D1430BC0C2457ED292AAEFF0 /* Pods-PurpleCoin.release.xcconfig */,
 			);
-			name = "Pods-PurpleCoin-PurpleCoinUITests";
-			path = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests";
-			sourceTree = "<group>";
-		};
-		46651A3F98B5101EF55EA1D9F2BDEBE8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9358045187DA6A9C89EB0C86F6CCDED7 /* Pods-PurpleCoin */,
-				D36B35AD198E65EAE88AD4277004A00E /* Pods-PurpleCoin-PurpleCoinUITests */,
-				710C0A50C65F343E8C4B72B8B844457D /* Pods-PurpleCoinTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		548EBA6302E69DE1541F040473A1C0DA /* Pods-PurpleCoinTests */ = {
-			isa = PBXGroup;
-			children = (
-				9884EECB68E3E7ADF549516BC750ABDD /* Pods-PurpleCoinTests.modulemap */,
-				F0DF508F9935119EF32C1C8A32706C4D /* Pods-PurpleCoinTests-acknowledgements.markdown */,
-				778F645CAEA1C39F48C0776FFCB5943D /* Pods-PurpleCoinTests-acknowledgements.plist */,
-				7E8176036D273147336364ADE9EC6781 /* Pods-PurpleCoinTests-dummy.m */,
-				FB5E88890729DCE270D1ED758227B550 /* Pods-PurpleCoinTests-Info.plist */,
-				C80F49D9CC1A09D450D57F13CFA100D3 /* Pods-PurpleCoinTests-umbrella.h */,
-				F20934478F30C7B6F1EAD8E30D93A576 /* Pods-PurpleCoinTests.debug.xcconfig */,
-				D4FB329F529609FD60B3615208A11EDF /* Pods-PurpleCoinTests.release.xcconfig */,
-			);
-			name = "Pods-PurpleCoinTests";
-			path = "Target Support Files/Pods-PurpleCoinTests";
+			name = "Pods-PurpleCoin";
+			path = "Target Support Files/Pods-PurpleCoin";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -138,30 +220,99 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		ABD58C32406083F0952E49C8D5B04165 /* Targets Support Files */ = {
+		7A734B7598F2E5260CF5CC1115915D79 /* Pods-PurpleCoin-PurpleCoinUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CE1C2C7EAFEE99CD451EA2A9FDA86BE7 /* Pods-PurpleCoin */,
-				0247394C77260B78720BC962140C082F /* Pods-PurpleCoin-PurpleCoinUITests */,
-				548EBA6302E69DE1541F040473A1C0DA /* Pods-PurpleCoinTests */,
+				1ABE8824098082D9984974C781C637B0 /* Pods-PurpleCoin-PurpleCoinUITests.modulemap */,
+				87DDD10FF650D544BD8809CD47D7B507 /* Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.markdown */,
+				B0D7E4941D21389C395B5EFD42394F92 /* Pods-PurpleCoin-PurpleCoinUITests-acknowledgements.plist */,
+				58B67795C2624209668E84C610845DAA /* Pods-PurpleCoin-PurpleCoinUITests-dummy.m */,
+				94EA5E6B8BDE2A11709985B44FFF562F /* Pods-PurpleCoin-PurpleCoinUITests-frameworks.sh */,
+				8DF6CD29F922280B22DF92D95B4D25CD /* Pods-PurpleCoin-PurpleCoinUITests-Info.plist */,
+				A3042750C532141E23BD4340F0696472 /* Pods-PurpleCoin-PurpleCoinUITests-umbrella.h */,
+				941A3E77FAF910F32D350634DAF92377 /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */,
+				43E53E322D2AAAD24E4F648A74B5A521 /* Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig */,
+			);
+			name = "Pods-PurpleCoin-PurpleCoinUITests";
+			path = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests";
+			sourceTree = "<group>";
+		};
+		7F02E3862C6E84203E8324D9D0088797 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				50380F281EC3EE769C85035CCEA77226 /* Constraint.swift */,
+				13F460233F2A555D41511B6CCA66A124 /* ConstraintAttributes.swift */,
+				250E41DBB680A3A2ECDDD2210311B230 /* ConstraintConfig.swift */,
+				6D990E0FED5B41C1F13AC6B08208A99B /* ConstraintConstantTarget.swift */,
+				CB1D9F6F4E2364DFAF158E04AF5D5EAA /* ConstraintDescription.swift */,
+				91164BE769DA144776663FBF46785561 /* ConstraintDirectionalInsets.swift */,
+				A7D358AA1606C7B2CDC8555485807E9E /* ConstraintDirectionalInsetTarget.swift */,
+				7AE00ECC24C5CC6DC938204FF42AD0E5 /* ConstraintDSL.swift */,
+				549471CD1FE3A1E1865DD172864918D3 /* ConstraintInsets.swift */,
+				7C2EC377264B25FB0E67D150E37E87CD /* ConstraintInsetTarget.swift */,
+				474AFC560A8B414B467174737DBC891A /* ConstraintItem.swift */,
+				66C5188AE61F0E667CD9E7ED28CDD61C /* ConstraintLayoutGuide.swift */,
+				09BF299D2EEB87E7DD02630E87B96224 /* ConstraintLayoutGuide+Extensions.swift */,
+				BE0BE9F3D55FDB29EF516F6D6B1B6BCA /* ConstraintLayoutGuideDSL.swift */,
+				3D705690D879064ED84970813189D8D4 /* ConstraintLayoutSupport.swift */,
+				C4A46A8054577838D49C60142EB88B13 /* ConstraintLayoutSupportDSL.swift */,
+				141BC33167429B9926FB24A17F01568C /* ConstraintMaker.swift */,
+				E2C3B0B200350EAC8F42EF635FF31BD1 /* ConstraintMakerEditable.swift */,
+				E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */,
+				11D02329E74D733C03BF6BAE1F564481 /* ConstraintMakerFinalizable.swift */,
+				91A53CAF547D71AEFABE49D91B4E6816 /* ConstraintMakerPriortizable.swift */,
+				724FB64349F5678CE1709979CF0DD952 /* ConstraintMakerRelatable.swift */,
+				F7AB9BB47A2175181386A432C07253AE /* ConstraintMultiplierTarget.swift */,
+				47B200BD964F52F6693D4168248B8645 /* ConstraintOffsetTarget.swift */,
+				F0BD95F32F2E57D6B9100B77B93F013C /* ConstraintPriority.swift */,
+				9716AD15FADF38A93170E034F2BCE457 /* ConstraintPriorityTarget.swift */,
+				2975CA5A0D26BC84F3EE9912FEBDA795 /* ConstraintRelatableTarget.swift */,
+				25479F58B67AA43E092C7B156C1B5C1B /* ConstraintRelation.swift */,
+				A51E99894F75F00A281BE6A32FBDE495 /* ConstraintView.swift */,
+				EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */,
+				56006AA49A060CA2830F32CD6F394823 /* ConstraintViewDSL.swift */,
+				D038D2FAA2F6B073D1B64B8635F4E3E6 /* Debugging.swift */,
+				F44C5B72775F6AF0891BF331F32FE10D /* LayoutConstraint.swift */,
+				464C01543F3BCEDEE51ABAA696513D0B /* LayoutConstraintItem.swift */,
+				D4E066869A95E00B949CBA4D2284C35F /* Typealiases.swift */,
+				6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */,
+				843EFF0C650682C304D518A9092EE9FD /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		811744CA7EE444A121C522AD2A8BECAF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3665927BA0507AA3F2A4D20773E00FEF /* Pods-PurpleCoin */,
+				7A734B7598F2E5260CF5CC1115915D79 /* Pods-PurpleCoin-PurpleCoinUITests */,
+				F3645748CB5EE832315458C4FBB729A2 /* Pods-PurpleCoinTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CE1C2C7EAFEE99CD451EA2A9FDA86BE7 /* Pods-PurpleCoin */ = {
+		843EFF0C650682C304D518A9092EE9FD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F57267770718048C9A9EE1735959951A /* Pods-PurpleCoin.modulemap */,
-				0858146C4F4EBDBBEA23AFB637F969AE /* Pods-PurpleCoin-acknowledgements.markdown */,
-				611FBD99F570D97015B857B46175C9E2 /* Pods-PurpleCoin-acknowledgements.plist */,
-				90526A1A1FB4C635068C4E18FD493B45 /* Pods-PurpleCoin-dummy.m */,
-				5A58C8CEF63FB2D12496C28FBA133D85 /* Pods-PurpleCoin-Info.plist */,
-				2F6E69662C93D91325F16FF40084C710 /* Pods-PurpleCoin-umbrella.h */,
-				1907C316BA39CBFCFB7803CC61E1D74F /* Pods-PurpleCoin.debug.xcconfig */,
-				CC26FFB384DF745413C3E573ECD0D870 /* Pods-PurpleCoin.release.xcconfig */,
+				7889131C1139F96BBDA94CEE2E694763 /* SnapKit.modulemap */,
+				E13B89FFD81AACB7530769CA05EEA26B /* SnapKit-dummy.m */,
+				391A6F8B42D2CD885F8F3C4CE6859439 /* SnapKit-Info.plist */,
+				E14A09DC3AD8CA84464FEC37F0FC99D1 /* SnapKit-prefix.pch */,
+				0116B84A6773B75FCBFCB479E740F0F3 /* SnapKit-umbrella.h */,
+				7C21E0C93A1141A1E2EB51575500E27D /* SnapKit.debug.xcconfig */,
+				A1CD432F32277BB93DEAADA626ECEC5B /* SnapKit.release.xcconfig */,
 			);
-			name = "Pods-PurpleCoin";
-			path = "Target Support Files/Pods-PurpleCoin";
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		BA22F08D059965C9A09F78196176CEDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F02E3862C6E84203E8324D9D0088797 /* SnapKit */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -169,8 +320,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				46651A3F98B5101EF55EA1D9F2BDEBE8 /* Products */,
-				ABD58C32406083F0952E49C8D5B04165 /* Targets Support Files */,
+				BA22F08D059965C9A09F78196176CEDB /* Pods */,
+				DECEC8F3EFBF97C99C0CE87A51904AF2 /* Products */,
+				811744CA7EE444A121C522AD2A8BECAF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,22 +334,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DECEC8F3EFBF97C99C0CE87A51904AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9358045187DA6A9C89EB0C86F6CCDED7 /* Pods-PurpleCoin */,
+				D36B35AD198E65EAE88AD4277004A00E /* Pods-PurpleCoin-PurpleCoinUITests */,
+				710C0A50C65F343E8C4B72B8B844457D /* Pods-PurpleCoinTests */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3645748CB5EE832315458C4FBB729A2 /* Pods-PurpleCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EC3FBFF34BFB42DCC1C4EB17C0944EA /* Pods-PurpleCoinTests.modulemap */,
+				2AC420AF02FD89969C62340773465695 /* Pods-PurpleCoinTests-acknowledgements.markdown */,
+				67B91CDF95120EC2D40C5DB461C0FEC3 /* Pods-PurpleCoinTests-acknowledgements.plist */,
+				1C8AF5F76251BA1CF97223550864F2A4 /* Pods-PurpleCoinTests-dummy.m */,
+				6E7125CBC7BC505FA86EC30422F848C5 /* Pods-PurpleCoinTests-Info.plist */,
+				D764B74996F74CF6CCE6E6995C3D3374 /* Pods-PurpleCoinTests-umbrella.h */,
+				BFBBF6831B312663914EAF6B6DD515E3 /* Pods-PurpleCoinTests.debug.xcconfig */,
+				06A02B97FBB308B6C0B01B6CCC31DC6D /* Pods-PurpleCoinTests.release.xcconfig */,
+			);
+			name = "Pods-PurpleCoinTests";
+			path = "Target Support Files/Pods-PurpleCoinTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4478496DE9EDAE3D503323A081EECC18 /* Headers */ = {
+		238D78FF5867DD1BA74426C08D747CA0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3DB4FE867F1D502B1CE56C35731798 /* Pods-PurpleCoin-PurpleCoinUITests-umbrella.h in Headers */,
+				A7D8AE3BC11F09D1E28A0920312DAC29 /* Pods-PurpleCoin-PurpleCoinUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DAA63D67E2B063B66D0EC1A4B66DB4F /* Headers */ = {
+		3B921547E999920F44EBD58F955423CC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D0CA052FF1A60716B4E8D0FC8B51DE /* Pods-PurpleCoin-umbrella.h in Headers */,
+				A4467357581E8345DD348683CC4111AF /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2743211B044B8788EA179E5F24A147 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0F16BBCF6BD6405542D2113D1BA2CE /* Pods-PurpleCoin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,20 +401,39 @@
 /* Begin PBXNativeTarget section */
 		14EC627D316BE1F3530713ADEAA70627 /* Pods-PurpleCoin-PurpleCoinUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4166D79834CE6CA8A429DD49CF47F267 /* Build configuration list for PBXNativeTarget "Pods-PurpleCoin-PurpleCoinUITests" */;
+			buildConfigurationList = B413584177CDEECF644B376F6A752F5A /* Build configuration list for PBXNativeTarget "Pods-PurpleCoin-PurpleCoinUITests" */;
 			buildPhases = (
-				4478496DE9EDAE3D503323A081EECC18 /* Headers */,
-				689D132AD01AFB6A2891FEF857CD8814 /* Sources */,
-				E9BB145A1BB1A673DFBD6C5A536C9162 /* Frameworks */,
-				6037508AF30196944B5189641F236606 /* Resources */,
+				238D78FF5867DD1BA74426C08D747CA0 /* Headers */,
+				A4BC3FAB30C016C9F85EBB13591CFA5B /* Sources */,
+				2D031980A2D9C75D6A5D5F0BFAF41D18 /* Frameworks */,
+				620939ED2EED9F4F6F16449C2EC73C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07EEBDF17FF0E702ACA05C5768E9EE3E /* PBXTargetDependency */,
+			);
+			name = "Pods-PurpleCoin-PurpleCoinUITests";
+			productName = Pods_PurpleCoin_PurpleCoinUITests;
+			productReference = D36B35AD198E65EAE88AD4277004A00E /* Pods-PurpleCoin-PurpleCoinUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4949A940CD53B7E293859B71C91C88F3 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				3B921547E999920F44EBD58F955423CC /* Headers */,
+				06A02EF810C9B8F84BA558BBDB9E5D6E /* Sources */,
+				9B30433E568C40FCE04D5188A9715448 /* Frameworks */,
+				DBFBC99C6F5D9B1D57CC9D1C6E9209EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-PurpleCoin-PurpleCoinUITests";
-			productName = Pods_PurpleCoin_PurpleCoinUITests;
-			productReference = D36B35AD198E65EAE88AD4277004A00E /* Pods-PurpleCoin-PurpleCoinUITests */;
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		755D3EFD532ABB5900634A58652FA69D /* Pods-PurpleCoinTests */ = {
@@ -242,7 +448,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				55F72622BCA03B19C6F1124AA428F931 /* PBXTargetDependency */,
+				4E115677DEBB107FA90BB7C3056E15EE /* PBXTargetDependency */,
 			);
 			name = "Pods-PurpleCoinTests";
 			productName = Pods_PurpleCoinTests;
@@ -251,16 +457,17 @@
 		};
 		E411229CE7156931DF13A502B2F8C143 /* Pods-PurpleCoin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4790BDA20F2C27335BE3775EC754A0A7 /* Build configuration list for PBXNativeTarget "Pods-PurpleCoin" */;
+			buildConfigurationList = EB3530C1C761CF76A84E4AEFED717C33 /* Build configuration list for PBXNativeTarget "Pods-PurpleCoin" */;
 			buildPhases = (
-				4DAA63D67E2B063B66D0EC1A4B66DB4F /* Headers */,
-				6AD9CCF38AC7032038E9CA88FAE58366 /* Sources */,
-				449A241C43D6E04A1452C7A273DEA30E /* Frameworks */,
-				0FB8AA92578BDE28C737F3423696DEB6 /* Resources */,
+				7D2743211B044B8788EA179E5F24A147 /* Headers */,
+				7AE83537E7864C89C36D4E6750A96885 /* Sources */,
+				0355C57DE12DDAD534AF20A996CC4BB0 /* Frameworks */,
+				6E2C6D3CE3DD3F5815A5C7CEBD8C560C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9F88823974CD78D9F459F4BE4886D2BB /* PBXTargetDependency */,
 			);
 			name = "Pods-PurpleCoin";
 			productName = Pods_PurpleCoin;
@@ -285,26 +492,27 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 46651A3F98B5101EF55EA1D9F2BDEBE8 /* Products */;
+			productRefGroup = DECEC8F3EFBF97C99C0CE87A51904AF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E411229CE7156931DF13A502B2F8C143 /* Pods-PurpleCoin */,
 				14EC627D316BE1F3530713ADEAA70627 /* Pods-PurpleCoin-PurpleCoinUITests */,
 				755D3EFD532ABB5900634A58652FA69D /* Pods-PurpleCoinTests */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0FB8AA92578BDE28C737F3423696DEB6 /* Resources */ = {
+		620939ED2EED9F4F6F16449C2EC73C18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6037508AF30196944B5189641F236606 /* Resources */ = {
+		6E2C6D3CE3DD3F5815A5C7CEBD8C560C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,22 +526,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		689D132AD01AFB6A2891FEF857CD8814 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		DBFBC99C6F5D9B1D57CC9D1C6E9209EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EADD631FD680135DD6F03B1FEC9AF894 /* Pods-PurpleCoin-PurpleCoinUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AD9CCF38AC7032038E9CA88FAE58366 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06A02EF810C9B8F84BA558BBDB9E5D6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18ACFC3A98908E12B515443BF7F15966 /* Pods-PurpleCoin-dummy.m in Sources */,
+				51A4A1046676D304410544EB56732A49 /* Constraint.swift in Sources */,
+				7580FAAB1BDA52F5A969E5571D1A5973 /* ConstraintAttributes.swift in Sources */,
+				B543FD108C1C6AF6129CB4991553218B /* ConstraintConfig.swift in Sources */,
+				C61D3BC32A28A405C934C00039AD2583 /* ConstraintConstantTarget.swift in Sources */,
+				8FD9CD608C4EAAFDE6AC7B8B9EF0FF5E /* ConstraintDescription.swift in Sources */,
+				A0F754C88A64972A40A9008B0AD52109 /* ConstraintDirectionalInsets.swift in Sources */,
+				7764AA5F6BBFC6ECE43959923DD007D3 /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				90FD5AE525E138A473723FD79AF73273 /* ConstraintDSL.swift in Sources */,
+				8C6546C1EF4F153DF3795CC6FE189E5B /* ConstraintInsets.swift in Sources */,
+				BEBF920FEB959B46A76BAADF22E5CD15 /* ConstraintInsetTarget.swift in Sources */,
+				BD333CDBCF5D2FD55920336FC271DF33 /* ConstraintItem.swift in Sources */,
+				EE6C364198A763EBBF49237035D86439 /* ConstraintLayoutGuide.swift in Sources */,
+				3DEDFA52B3A196F6D3E1F0937617628A /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				8449EB1DFD43E222D687D5A8D2088D2D /* ConstraintLayoutGuideDSL.swift in Sources */,
+				3B60C02F6E42FD06B128473E00A94224 /* ConstraintLayoutSupport.swift in Sources */,
+				274DF0E2BF04F6F4F9F1E70CF513A4F2 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				CB194156C900B767B0160AF72EDF354D /* ConstraintMaker.swift in Sources */,
+				A53D3AF15CE8D348306EF11619C5D166 /* ConstraintMakerEditable.swift in Sources */,
+				825062025906CE93C5D124E1FD9A811E /* ConstraintMakerExtendable.swift in Sources */,
+				D13D417B236E736EEAE7217B5CE3EC5C /* ConstraintMakerFinalizable.swift in Sources */,
+				F2C817C166B2DE613222C41015A586C9 /* ConstraintMakerPriortizable.swift in Sources */,
+				CB8E4BF0D710970BE2CB4C87ED1043E4 /* ConstraintMakerRelatable.swift in Sources */,
+				17BE0F4E51B0FB968125F1A520607FD8 /* ConstraintMultiplierTarget.swift in Sources */,
+				62F299B4704A7C95FB5866C6CDE2E2FD /* ConstraintOffsetTarget.swift in Sources */,
+				F343BA4E457FFDB0165492AECAEF0BCC /* ConstraintPriority.swift in Sources */,
+				E36244E8BF4AC941E82DAF16DDF4BBC2 /* ConstraintPriorityTarget.swift in Sources */,
+				E8EAADACF3BAE33BDECBC7214EAE9CD2 /* ConstraintRelatableTarget.swift in Sources */,
+				D59C2826AD288ECFF576B2AFA312716C /* ConstraintRelation.swift in Sources */,
+				F24D06C23DAB2F52A30C886A7A8177C7 /* ConstraintView.swift in Sources */,
+				1E9EEA756F2774D73347F1660EEFE3E9 /* ConstraintView+Extensions.swift in Sources */,
+				5E8BA529DFB4529006967624044FEC1C /* ConstraintViewDSL.swift in Sources */,
+				F10586462FB54CEA169A1A7A469A926D /* Debugging.swift in Sources */,
+				43863B6D6A0E47B6648BB7B469736EDD /* LayoutConstraint.swift in Sources */,
+				4CA13A0527BC57DE2C54A0F3B5ED8652 /* LayoutConstraintItem.swift in Sources */,
+				968B4874A9F12D67C8B901136C9C8157 /* SnapKit-dummy.m in Sources */,
+				3CD5FAFC746A76D73C3F501734199DFF /* Typealiases.swift in Sources */,
+				144DA93A55A598F5197F10C729FBDD69 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE83537E7864C89C36D4E6750A96885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B865594696E9D81A28C13965EEAAE1E /* Pods-PurpleCoin-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,59 +596,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A4BC3FAB30C016C9F85EBB13591CFA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D012DC9B00A9D691907F148EE10F7C76 /* Pods-PurpleCoin-PurpleCoinUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		55F72622BCA03B19C6F1124AA428F931 /* PBXTargetDependency */ = {
+		07EEBDF17FF0E702ACA05C5768E9EE3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = D4B8874D5D3A2A96820BCF9E1A5BDE23 /* PBXContainerItemProxy */;
+		};
+		4E115677DEBB107FA90BB7C3056E15EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PurpleCoin";
 			target = E411229CE7156931DF13A502B2F8C143 /* Pods-PurpleCoin */;
-			targetProxy = 4E2FFA03FB8FC519069578A0043D6BCB /* PBXContainerItemProxy */;
+			targetProxy = 35E729DFBC764508D438AC5C15ABA5EC /* PBXContainerItemProxy */;
+		};
+		9F88823974CD78D9F459F4BE4886D2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = E973A1DD50628824584BE7FAB55E877C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		059747FBEB78AAC04C4B11412F80A4E0 /* Release */ = {
+		43E0860D23789D762C1629FB844CD748 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFB6CACFE5E1E1FE545A8E40A3207FCD /* Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		363C2A9717C581FA8942F364374D0D00 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1907C316BA39CBFCFB7803CC61E1D74F /* Pods-PurpleCoin.debug.xcconfig */;
+			baseConfigurationReference = 2E508CE8D1430BC0C2457ED292AAEFF0 /* Pods-PurpleCoin.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -427,14 +660,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		6079944546D6056761AAC3FEBC75E188 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F20934478F30C7B6F1EAD8E30D93A576 /* Pods-PurpleCoinTests.debug.xcconfig */;
+			baseConfigurationReference = BFBBF6831B312663914EAF6B6DD515E3 /* Pods-PurpleCoinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -535,47 +769,9 @@
 			};
 			name = Debug;
 		};
-		8D1226B145DD0F94C38854C885908C29 /* Release */ = {
+		B9B9D2D17F88F8C05E017540CF5AE443 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC26FFB384DF745413C3E573ECD0D870 /* Pods-PurpleCoin.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8EDBF521F5CE70A7215EED9EBAE69EF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4411BE36CF6DF110F6F4683072D115B /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */;
+			baseConfigurationReference = 43E53E322D2AAAD24E4F648A74B5A521 /* Pods-PurpleCoin-PurpleCoinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -605,6 +801,79 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9F7F918D308416EBFBC4FCF24AD1B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3960FFA84F8964BACE2DC5F7ED634951 /* Pods-PurpleCoin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB8A79F7382B0A1227C38D59E7968EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C21E0C93A1141A1E2EB51575500E27D /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -612,7 +881,7 @@
 		};
 		D3CCEF2CC029EE47CC9F72431B55EA5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4FB329F529609FD60B3615208A11EDF /* Pods-PurpleCoinTests.release.xcconfig */;
+			baseConfigurationReference = 06A02B97FBB308B6C0B01B6CCC31DC6D /* Pods-PurpleCoinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -647,6 +916,79 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		DFFD31690F9CC8449FD1F803388E1D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1CD432F32277BB93DEAADA626ECEC5B /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E32C8A7A4279647D447831F1B61798CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941A3E77FAF910F32D350634DAF92377 /* Pods-PurpleCoin-PurpleCoinUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -713,15 +1055,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4166D79834CE6CA8A429DD49CF47F267 /* Build configuration list for PBXNativeTarget "Pods-PurpleCoin-PurpleCoinUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EDBF521F5CE70A7215EED9EBAE69EF0 /* Debug */,
-				059747FBEB78AAC04C4B11412F80A4E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		45CDD07771B46914279099E32A3C5AC8 /* Build configuration list for PBXNativeTarget "Pods-PurpleCoinTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -731,20 +1064,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4790BDA20F2C27335BE3775EC754A0A7 /* Build configuration list for PBXNativeTarget "Pods-PurpleCoin" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				363C2A9717C581FA8942F364374D0D00 /* Debug */,
-				8D1226B145DD0F94C38854C885908C29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
 				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4949A940CD53B7E293859B71C91C88F3 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8A79F7382B0A1227C38D59E7968EEA /* Debug */,
+				DFFD31690F9CC8449FD1F803388E1D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B413584177CDEECF644B376F6A752F5A /* Build configuration list for PBXNativeTarget "Pods-PurpleCoin-PurpleCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32C8A7A4279647D447831F1B61798CB /* Debug */,
+				B9B9D2D17F88F8C05E017540CF5AE443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3530C1C761CF76A84E4AEFED717C33 /* Build configuration list for PBXNativeTarget "Pods-PurpleCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F7F918D308416EBFBC4FCF24AD1B2B /* Debug */,
+				43E0860D23789D762C1629FB844CD748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

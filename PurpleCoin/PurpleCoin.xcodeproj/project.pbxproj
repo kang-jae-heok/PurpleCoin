@@ -369,6 +369,7 @@
 				4092867C2B3515D100E89F62 /* Sources */,
 				4092867D2B3515D100E89F62 /* Frameworks */,
 				4092867E2B3515D100E89F62 /* Resources */,
+				6E43AB97BF916C55CAD7E525 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -406,6 +407,7 @@
 				4092869C2B3515D300E89F62 /* Sources */,
 				4092869D2B3515D300E89F62 /* Frameworks */,
 				4092869E2B3515D300E89F62 /* Resources */,
+				EB40528E558622D705B227DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -551,6 +553,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E43AB97BF916C55CAD7E525 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PurpleCoin/Pods-PurpleCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB40528E558622D705B227DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PurpleCoin-PurpleCoinUITests/Pods-PurpleCoin-PurpleCoinUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
